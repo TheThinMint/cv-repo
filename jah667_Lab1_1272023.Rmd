@@ -1,0 +1,57 @@
+---
+title: "jah667_Lab1_1272023"
+author: "Jessie"
+date: "2023-01-27"
+output: 
+  html_document: 
+    toc: TRUE
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# What...is your name?
+
+## What...is your favorite color?
+
+<br> This is a pagebreak function
+
+### What...is the average velocity of a coconut-laden swallow?
+
+*It depends on whether we're talking about an African swallow or a European swallow*
+<br>
+
+**Implementing R code into your markdown file:**
+<br>
+The answer to 2+2 is `r 2+2`!
+<br>
+
+**Can also implement datasets from R into RMarkdown**
+ <br>
+The number of rows in the "cars" dataset built into R is `r nrow(cars)`
+<br>
+
+Monty Python is a cultural masterpiece:
+<br>
+<br>
+
+<center> Centered Text look at us go (this text is centered using HTML!)</center>
+<br> 
+
+Now let's work on adding more R into this text and different ways to do it
+<br>
+<br>
+Echo is the command that allows you to continue an R string within a document. This continuation of a string is called a chunk.
+```{r, echo=FALSE, eval=TRUE} 
+nrow(cars)
+ncol(cars)
+
+plot(cars$speed, cars$dist)
+```
+<br>
+To end the chunk, use the little dots like this ` 
+<br>
+
+This is a footnote^[this is the footnote!]
