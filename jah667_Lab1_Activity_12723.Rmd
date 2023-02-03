@@ -4,11 +4,11 @@ output: github_document
 
 <center> 
 # Jessie Hughes 
-*Lurasdfsadfsaing in the Shadows*
+*Lurking in the Shadows*
 </center>
 
 ## Education
-**Col University** | Master's in Sensory Evaluation [**1546-1550**]{style="float:right"}  
+**Cornell University** | Master's in Sensory Evaluation [**1546-1550**]{style="float:right"}  
 
 * Courses of Note: 
     * *Pies and Poison: Murderous Intent in Your Spouse*  
@@ -22,7 +22,7 @@ output: github_document
 * Concentration | Interrogation   
 <br>
 
-## Expurrrience
+## Experience
 **Taste Tester** | Lord Gareth Brynne [1582-present]{style="float:right"} 
 <br>
 **A Suspicious 15-Year Absence From Public Life** | Freelance [1567-1582]{style="float:right"}  
